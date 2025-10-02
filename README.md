@@ -1,1 +1,1 @@
-My solution https://www.theodinproject.com/lessons/foundations-landing-page
+My solution for https://www.theodinproject.com/lessons/foundations-landing-page
