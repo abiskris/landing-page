@@ -3,3 +3,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.footer{
+    height: 50px;
+    color: white;
+    background-color: #1F2937;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
