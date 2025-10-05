@@ -173,6 +173,55 @@ body {
     font-weight: 900;
 }
 
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 100px;
+    height: 200px;
+    gap: 50px;
+    color: white;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.action-content-header {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.action-button{
+    background-color: white ;
+    /* Button / CTA color */
+    color: #3882F6;
+    /* Text color for contrast */
+    padding: 12px 24px;
+    /* Space inside the button */
+    border-radius: 8px;
+    /* Curved corners */
+    text-align: center;
+    /* Center text */
+    font-size: 16px;
+    /* Readable font size */
+    font-weight: 600;
+    /* Slightly bold text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    display: inline-block;
+    /* Let it behave like a button */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+    max-width: 100px;
+    flex-grow: 0;
+}
+
 .logo {
     font-size: 24px;
     font-weight: 900;
