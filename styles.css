@@ -14,15 +14,81 @@ body {
     align-items: center;
 }
 
-.header {
-    padding-left: 250px;
-    padding-right: 250px;
+.header,
+.header-subsection {
+    padding-left: 150px;
+    padding-right: 150px;
     color: white;
     background-color: #1F2937;
     font-family: Roboto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-subsection {
+    min-height: 40vh;
+}
+
+.header-subsection-left,
+.header-subsection-right {
+    max-width: 50vh;
+}
+
+.header-subsection-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-subsection-left-main-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex: 0;
+}
+
+.header-subsection-left-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 0;
+}
+
+
+.header-subsection-left-button {
+  background-color: #3882F6; /* Button / CTA color */
+  color: white;              /* Text color for contrast */
+  padding: 12px 24px;        /* Space inside the button */
+  border-radius: 8px;        /* Curved corners */
+  text-align: center;        /* Center text */
+  font-size: 16px;           /* Readable font size */
+  font-weight: 600;          /* Slightly bold text */
+  cursor: pointer;           /* Pointer cursor on hover */
+  display: inline-block;     /* Let it behave like a button */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  max-width: 100px;
+  flex-grow: 0;
+}
+
+.header-subsection-left-button:hover {
+  background-color: #2c6dd4; /* Slightly darker shade on hover */
+}
+
+.header-subsection-right{
+    display: flex;
+    justify-content: center;
+}
+
+.image-placeholder {
+  width: 400px;
+  height: 200px;
+  background-color: #6b7280; /* Medium gray */
+  display: flex;             /* Center text horizontally & vertically */
+  justify-content: center;
+  align-items: center;
+  color: white;              /* White placeholder text */
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 .logo {
